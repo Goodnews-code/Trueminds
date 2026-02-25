@@ -5,6 +5,24 @@ This project is a responsive web UI implementation of the "Chuks Kitchen" applic
 
 The goal of this project was to translate the UI/UX design into clean, maintainable, and responsive code, replicating over 10 screens (including Home, Explore, Food Details, Cart, Checkout, Sign In, and Sign Up) while maintaining strict adherence to the visual hierarchy, alignment, and spacing.
 
+## Technical Description (How to Run the Project)
+Because this project strictly adheres to pure HTML and CSS without any build tools, frameworks, or dependencies, running it is exceptionally straightforward:
+
+1. **Option 1: Local File Viewing (No Server Required)**
+   - Simply extract the provided project folder.
+   - Double-click on `index.html` to open it in your default web browser (Chrome, Firefox, Safari, Edge, etc.).
+   - You can click on the buttons and links to seamlessly navigate between the connected screens (`home.html`, `explore.html`, `signin.html`, etc.).
+
+2. **Option 2: Using VS Code Live Server (For Developers)**
+   - Open the primary project folder (`Chuks Kitchen`) in Visual Studio Code.
+   - Install the "Live Server" extension by Ritwick Dey.
+   - Right-click on `index.html` and select **"Open with Live Server"**.
+   - The application will open in your browser at `http://localhost:5500`.
+
+**Other Necessary Information**:
+- **Images:** All exported Figma images were heavily compressed and optimized (using standard compression techniques) reducing total asset size by >80% to ensure fast loading times on live servers and slow web connections.
+- **Responsiveness Test:** To test the responsiveness, simply resize your browser window horizontally, or use Chrome DevTools (F12) to toggle the device toolbar between Desktop, Tablet (`<=1024px`), and Mobile (`<=768px`) viewports.
+
 ## Tech Stack Used
 * **HTML5**: Used for structuring the content. Semantic tags (`<header>`, `<nav>`, `<main>`, `<section>`, `<aside>`, `<footer>`) were used to ensure accessibility and structural meaning.
 * **CSS3**: Used for all styling. 
