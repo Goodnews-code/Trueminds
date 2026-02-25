@@ -1,5 +1,7 @@
 # Chuks Kitchen - UI Layout Implementation
 
+🔴 **Live Demo:** [View the deployed website here](https://goodnews-code.github.io/Trueminds/)
+
 ## Project Overview
 This project is a responsive web UI implementation of the "Chuks Kitchen" application based on the provided Figma design. Chuks Kitchen represents an authentic Nigerian food ordering platform where users can browse menus, view food details, add items to their cart, and proceed through a checkout flow. 
 
