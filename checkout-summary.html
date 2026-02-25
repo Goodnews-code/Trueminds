@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary - Chuks Kitchen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Island+Moments&family=Jost:wght@400;600;700&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="home-header">
+        <nav class="home-navbar">
+            <a href="home.html" class="logo">Chuks Kitchen</a>
+            <ul class="home-nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="cart.html" class="active">My Orders</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+            <a href="signin.html" class="btn btn-login">Login</a>
+        </nav>
+    </header>
+
+    <main class="checkout-bg">
+        <div class="checkout-container">
+            <h1 class="checkout-title">Order Summary</h1>
+
+            <label class="checkout-label">Add a Promo Code</label>
+            <div class="promo-row">
+                <input type="text" class="checkout-input" placeholder="Enter Code here">
+                <button class="btn-promo">Login</button>
+            </div>
+
+            <div class="summary-line">
+                <span>Subtotal</span>
+                <span>₦9,200</span>
+            </div>
+            <div class="summary-line">
+                <span>Delivery Fee</span>
+                <span>₦500</span>
+            </div>
+            <div class="summary-line">
+                <span>Service Fee</span>
+                <span>₦200</span>
+            </div>
+            <div class="summary-line">
+                <span>Tax</span>
+                <span>₦0</span>
+            </div>
+
+            <div class="summary-line total">
+                <span>Total</span>
+                <span>₦9,900</span>
+            </div>
+
+            <!-- Segmented toggles -->
+            <div class="toggle-switch">
+                <button class="toggle-btn active">Delivery</button>
+                <button class="toggle-btn">Pick up</button>
+            </div>
+
+            <label class="checkout-label">Special Instructions for Restaurant</label>
+            <textarea class="checkout-textarea"
+                placeholder="E.g no onion, food is too spicy, food is too hot hhhhhhhhhhh food is tasty"></textarea>
+
+            <button class="btn-checkout" onclick="window.location.href='checkout-payment.html'">Proceed to
+                Checkout</button>
+
+        </div>
+    </main>
+
+    <footer class="footer-area">
+        <div class="site-footer">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <h3 class="footer__logo">Chuks Kitchen</h3>
+                    <p class="footer__tagline">Bringing the authentic flavors of Nigerian home cooking to your table,
+                        with passion and care.</p>
+                </div>
+                <!-- Standard Footer content truncated for brevity, exact same structure -->
+                <div class="footer__column">
+                    <h4 class="footer__heading">Quick Links</h4>
+                    <ul class="footer__list">
+                        <li><a href="home.html" class="footer__link">Home</a></li>
+                        <li><a href="explore.html" class="footer__link">Explore</a></li>
+                        <li><a href="cart.html" class="footer__link">My Order</a></li>
+                        <li><a href="#" class="footer__link">Account</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h4 id="contact" class="footer__heading">Contact Us</h4>
+                    <ul class="footer__list">
+                        <li>+234 801 234 5678</li>
+                        <li>hello@chukskitchen.com</li>
+                        <li>123 Taste Blvd, Lagos, Nigeria</li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <ul class="footer__list footer__socials">
+                        <li><a href="#" class="footer__link">Facebook</a></li>
+                        <li><a href="#" class="footer__link">Twitter</a></li>
+                        <li><a href="#" class="footer__link">LinkedIn</a></li>
+                        <li><a href="#" class="footer__link">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="bottom-bar__content">
+                <p class="bottom-bar__text">&copy; 2020 Lift Media. All rights reserved.</p>
+                <a href="#" class="bottom-bar__scroll-top">&#8593;</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

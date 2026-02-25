@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Jollof Rice with Fried Chicken - customize your order with protein options and sides at Chuks Kitchen.">
+    <title>Jollof Rice with Fried Chicken - Chuks Kitchen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Island+Moments&family=Jost:wght@400;600;700&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="details-page-wrapper">
+
+    <!-- Navbar -->
+    <header class="home-header">
+        <nav class="home-navbar">
+            <a href="home.html" class="logo">Chuks Kitchen</a>
+            <ul class="home-nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="explore.html" class="active">Explore</a></li>
+                <li><a href="#">My Orders</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+            <a href="signin.html" class="btn btn-login">Login</a>
+        </nav>
+    </header>
+
+    <!-- Details Main Content -->
+    <main class="food-details-bg">
+        <div class="food-details-container">
+            <!-- Left Side: Image -->
+            <div class="food-details-image">
+                <img src="images/food-detail.png" alt="Jollof Rice with Fried Chicken" loading="lazy">
+            </div>
+
+            <!-- Right Side: Content Box -->
+            <div class="food-details-content">
+                <button class="btn-close-modal" aria-label="Close" onclick="window.location.href='explore.html'">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+
+                <h1 class="food-details__title">Jollof Rice with Fried Chicken</h1>
+                <p class="food-details__price">₦2,800</p>
+
+                <p class="food-details__desc">
+                    Our signature Jollof rice, cooked to perfection with aromatic spices, served with juicy,
+                    golden-fried chicken. A classic Nigerian comfort food, rich in flavor and satisfying. Perfect for a
+                    quick lunch or a hearty dinner.
+                </p>
+
+                <!-- Meta Icons Row -->
+                <div class="food-details__meta">
+                    <span class="meta-item">
+                        <svg class="meta-icon" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        Mildly spicy
+                    </span>
+                    <span class="meta-item">
+                        <svg class="meta-icon" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        Vegetarian option available
+                    </span>
+                    <span class="meta-item">
+                        <svg class="meta-icon" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        View Allergies
+                    </span>
+                </div>
+
+                <!-- Choose Your Protein -->
+                <div class="options-section">
+                    <h3 class="options-title">Choose Your Protein</h3>
+
+                    <label class="option-row">
+                        <input type="radio" name="protein" value="fried_chicken" checked class="custom-radio">
+                        <span class="option-name">Fried Chicken</span>
+                        <span class="option-price">(Default)</span>
+                    </label>
+
+                    <label class="option-row">
+                        <input type="radio" name="protein" value="grilled_fish" class="custom-radio">
+                        <span class="option-name">Grilled Fish</span>
+                        <span class="option-price">+₦500</span>
+                    </label>
+
+                    <label class="option-row">
+                        <input type="radio" name="protein" value="beef" class="custom-radio">
+                        <span class="option-name">Beef</span>
+                        <span class="option-price">+₦700</span>
+                    </label>
+                </div>
+
+                <!-- Extra Sides -->
+                <div class="options-section">
+                    <h3 class="options-title">Extra Sides (Optional)</h3>
+
+                    <label class="option-row">
+                        <input type="checkbox" name="side_plantain" class="custom-checkbox">
+                        <span class="option-name">Fried Plantain</span>
+                        <span class="option-price">+₦700</span>
+                    </label>
+
+                    <label class="option-row">
+                        <input type="checkbox" name="side_coleslaw" class="custom-checkbox">
+                        <span class="option-name">Coleslaw</span>
+                        <span class="option-price">+₦500</span>
+                    </label>
+
+                    <label class="option-row">
+                        <input type="checkbox" name="side_sauce" class="custom-checkbox">
+                        <span class="option-name">Extra Pepper Sauce</span>
+                        <span class="option-price">+₦300</span>
+                    </label>
+                </div>
+
+                <!-- Special Instructions -->
+                <div class="options-section">
+                    <h3 class="options-title">Special Instructions</h3>
+                    <textarea class="special-instructions"
+                        placeholder="E.g. no onions, extra spicy, light sauce..."></textarea>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (hidden on mobile via CSS) -->
+    <footer class="footer-area">
+        <div class="site-footer">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <h3 class="footer__logo">Chuks Kitchen</h3>
+                    <p class="footer__tagline">Bringing the authentic flavors of Nigerian home cooking to your table,
+                        with passion and care.</p>
+                </div>
+                <div class="footer__column">
+                    <h4 class="footer__heading">Quick Links</h4>
+                    <ul class="footer__list">
+                        <li><a href="home.html" class="footer__link">Home</a></li>
+                        <li><a href="explore.html" class="footer__link">Explore</a></li>
+                        <li><a href="#" class="footer__link">My Order</a></li>
+                        <li><a href="#" class="footer__link">Account</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h4 id="contact" class="footer__heading">Contact Us</h4>
+                    <ul class="footer__list">
+                        <li>+234 801 234 5678</li>
+                        <li>hello@chukskitchen.com</li>
+                        <li>123 Taste Blvd, Lagos, Nigeria</li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <ul class="footer__list footer__socials">
+                        <li><a href="#" class="footer__link">Facebook</a></li>
+                        <li><a href="#" class="footer__link">Twitter</a></li>
+                        <li><a href="#" class="footer__link">LinkedIn</a></li>
+                        <li><a href="#" class="footer__link">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="bottom-bar__content">
+                <p class="bottom-bar__text">&copy; 2020 Lift Media. All rights reserved.</p>
+                <a href="#" class="bottom-bar__scroll-top">&#8593;</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

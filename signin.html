@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login to your Chuks Kitchen account to order your favorite Nigerian meals.">
+    <title>Login - Chuks Kitchen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Island+Moments&family=Jost:wght@400;600&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="page-wrapper">
+
+    <!-- Row 1, Column 1: Hero with Overlay -->
+    <section class="hero-image-area-orange-overlay">
+        <img src="images/hero-image.png" alt="Chuks Kitchen Hero" class="hero__image">
+        <div class="hero-overlay">
+            <h2>Chuks Kitchen</h2>
+            <p>Your journey to delicious, authentic Nigerian meals starts here. Sign up or log in to order your
+                favorites today!
+            </p>
+        </div>
+    </section>
+
+    <!-- Row 1, Column 2: Login form -->
+    <main class="main-content-area">
+        <header class="header-inner-overlay">
+            <nav class="navbar" style="justify-content: center;">
+                <a href="home.html" class="logo">Chuks Kitchen</a>
+            </nav>
+        </header>
+
+        <div class="form-container">
+            <h1 class="form-title">Login your Account</h1>
+
+            <form action="#">
+                <!-- Email/Phone field -->
+                <div class="form-group">
+                    <label class="form-label">Email or phone number</label>
+                    <div class="input-wrapper">
+                        <span class="input-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </span>
+                        <input type="text" class="form-input" placeholder="name@gmail.com" required>
+                    </div>
+                </div>
+
+                <!-- Password field -->
+                <div class="form-group">
+                    <label class="form-label">Password</label>
+                    <div class="input-wrapper">
+                        <span class="input-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                            </svg>
+                        </span>
+                        <input type="password" class="form-input" placeholder="******" required>
+                        <span class="toggle-password">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                <circle cx="12" cy="12" r="3" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <a href="#" class="forgot-link">Forgot Password?</a>
+
+                <button type="submit" class="btn btn-primary">Continue</button>
+
+                <div class="divider">Or continue with</div>
+
+                <!-- Social Logins -->
+                <button type="button" class="btn-social">
+                    <img src="https://www.gstatic.com/images/branding/product/1x/gsa_512dp.png" alt="Google"
+                        class="social-icon">
+                    Continue with Google
+                </button>
+
+                <button type="button" class="btn-social">
+                    <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.05 20.28c-.96.95-2.04 1.72-3.23 2.11-1.28.42-2.39.42-3.66 0-1.19-.39-2.27-1.16-3.23-2.11-2.07-2.06-2.07-5.41 0-7.47.96-.95 2.04-1.57 3.23-1.92 1.28-.37 2.39-.37 3.66 0 1.19.35 2.27.97 3.23 1.92l.01.01c2.1 2.09 2.1 5.46 0 7.55-.01-.3-.01-.33-.01-.09zM12 2c.62 0 1.13.2 1.54.59.39.38.6 1.05.62 2s-.22 1.62-.62 2c-.41.38-.92.58-1.54.58-.62 0-1.13-.2-1.54-.58-.4-.38-.61-1.11-.63-2.01s.21-1.62.61-2c.42-.4 1.13-.59 1.56-.58z" />
+                    </svg>
+                    Continue with Apple
+                </button>
+
+                <p class="auth-footer">Don't have an account? <a href="signup.html" class="auth-link">Create an
+                        account</a></p>
+            </form>
+        </div>
+    </main>
+
+    <!-- Row 2: Footer shared with Home -->
+    <footer class="footer-area">
+        <div class="site-footer">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <h3 class="footer__logo">Chuks Kitchen</h3>
+                    <p class="footer__tagline">Bringing the authentic flavors of Nigerian home cooking to your table,
+                        with passion and care.</p>
+                </div>
+                <!-- ... other columns ... -->
+                <div class="footer__column">
+                    <h4 class="footer__heading">Quick Links</h4>
+                    <ul class="footer__list">
+
+
+                        <li><a href="#" class="footer__link">My Order</a></li>
+                        <li><a href="#" class="footer__link">Account</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h4 id="contact" class="footer__heading">Contact Us</h4>
+                    <ul class="footer__list">
+                        <li>+234 801 234 5678</li>
+                        <li>hello@chukskitchen.com</li>
+                        <li>123 Taste Blvd, Lagos, Nigeria</li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <ul class="footer__list footer__socials">
+                        <li><a href="#" class="footer__link">Facebook</a></li>
+                        <li><a href="#" class="footer__link">Twitter</a></li>
+                        <li><a href="#" class="footer__link">LinkedIn</a></li>
+                        <li><a href="#" class="footer__link">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="bottom-bar__content">
+                <p class="bottom-bar__text">&copy; 2020 Lift Media. All rights reserved.</p>
+                <a href="#" class="bottom-bar__scroll-top">&#8593;</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
